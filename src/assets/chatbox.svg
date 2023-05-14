@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500"
+   height="170"
+   viewBox="0 0 500 170"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="chatbox.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     showborder="true"
+     inkscape:zoom="2.0830187"
+     inkscape:cx="339.6513"
+     inkscape:cy="77.051637"
+     inkscape:window-width="2400"
+     inkscape:window-height="1261"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="0,170"
+       orientation="0,1879"
+       id="guide130"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1879,170"
+       orientation="1080,0"
+       id="guide132"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1879,-910"
+       orientation="0,-1879"
+       id="guide134"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,-910"
+       orientation="-1080,0"
+       id="guide136"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,170"
+       orientation="0,1879"
+       id="guide138"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1879,170"
+       orientation="1080,0"
+       id="guide140"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1879,-910"
+       orientation="0,-1879"
+       id="guide142"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,-910"
+       orientation="-1080,0"
+       id="guide144"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="168.98552"
+       y="42.726453"
+       width="228.99458"
+       height="100.33515"
+       id="rect302" />
+    <rect
+       x="168.50545"
+       y="35.525365"
+       width="230.91487"
+       height="92.653993"
+       id="rect292" />
+    <rect
+       x="164.1848"
+       y="15.842393"
+       width="240.9964"
+       height="137.78081"
+       id="rect182" />
+    <rect
+       x="179.06704"
+       y="22.083335"
+       width="226.11415"
+       height="133.94023"
+       id="rect176" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect874"
+       style="fill:#ffffff;stroke-width:0.444291"
+       d="M 147.32135,0.90464529 H 499.88632 L 421.30024,168.87846 H 79.131047 Z"
+       sodipodi:nodetypes="ccccc"
+       inkscape:label="cuadro blanco" />
+    <rect
+       style="fill:#000000;stroke-width:0.418081"
+       id="rect230"
+       width="307.49603"
+       height="165.51054"
+       x="164.50761"
+       y="8.9254351"
+       transform="matrix(1,0,-0.37025046,0.92893197,0,0)"
+       inkscape:label="cuadro negro" />
+    <path
+       style="fill:#ffffff;stroke-width:0.40295"
+       d="M 136.85495,42.487726 106.21477,64.373564 91.168251,38.384134 -0.20512683,140.15329 76.121745,111.15456 l 6.839321,11.76363 30.366604,-8.75433 z"
+       id="path954"
+       inkscape:label="cola blanca" />
+    <path
+       style="fill:#000000;stroke-width:0.40295"
+       d="M 145.88285,50.968484 101.56403,82.155809 86.791086,54.798515 30.435061,119.36174 82.41391,98.57019 l 8.207195,12.58437 37.205935,-10.39579 z"
+       id="path926"
+       inkscape:label="cola negro" />
+    <text
+       xml:space="preserve"
+       id="text174"
+       style="white-space:pre;shape-inside:url(#rect176);display:inline;fill:#ffffff" />
+    <text
+       xml:space="preserve"
+       id="text300"
+       style="font-size:16px;white-space:pre;shape-inside:url(#rect302);display:inline;fill:#ffffff"
+       transform="matrix(1.0668829,0,0,1.1872682,-8.9562828,-22.478581)"><tspan
+         x="168.98633"
+         y="57.323848"
+         id="tspan356">Lorem Ipsum es </tspan><tspan
+         x="168.98633"
+         y="77.323848"
+         id="tspan358">simplemente el texto de </tspan><tspan
+         x="168.98633"
+         y="97.323848"
+         id="tspan360">relleno de las imprentas y </tspan><tspan
+         x="168.98633"
+         y="117.32385"
+         id="tspan362">archivos de texto. Lorem </tspan><tspan
+         x="168.98633"
+         y="137.32385"
+         id="tspan364">Ipsum ha sido el texto de </tspan><tspan
+         x="168.98633"
+         y="157.65979"
+         id="tspan368"><tspan
+           dx="0 6.828125 9.53125 4.390625 4.390625 9.53125 10.125 9.7109375 2127.5156 9.53125 8.3359375 6.3046875 9.609375 10.125 9.96875 9.609375 6.828125 2127.5156 9.96875 9.53125 2127.5156 4.390625 9.609375 8.3359375 2127.5156 4.390625 10.125 9.96875 10.125 8.3359375 6.3046875 6.828125 4.390625 9.609375 8.3359375 2127.5156 9.96875 9.53125 8.3359375 9.96875 9.53125 2127.5156 9.53125 4.390625 2127.5156 9.609375 10.125 9.7109375 2127.5156 10.171875 10.171875 10.171875 10.171875 5.8203125 2127.5156 8.3359375 10.125 9.609375 10.125 9.96875 9.7109375 2127.5156 10.125 10.125 2127.5156 4.390625 15.5625 9.96875 6.828125 9.53125 8.3359375 9.7109375 6.828125 2127.5156 7.265625 11.96875 5.8203125 2127.5156 9.96875 9.53125 4.390625 2127.5156 7.59375 5.8203125 2127.5156 9.96875 9.53125 6.828125 8.3359375 9.7109375 10.125 9.609375 2127.5156 9.96875 10.125 9.53125 2127.5156 8.3359375 9.53125 2127.5156 9.96875 9.53125 9.96875 4.390625 8.3359375 9.609375 2127.5156 9.609375 2127.5156 4.390625 9.609375 2127.5156 4.390625 15.5625 9.96875 6.828125 9.53125 10.125 6.3046875 9.609375 7.265625 2127.5156 9.96875 9.53125 8.3359375 8.3359375 9.7109375 10.125 9.7109375 8.3359375 4.390625 9.96875 9.7109375 2127.5156 10.125 8.3359375 9.7109375 2127.5156 10.125 10.125 9.609375 2127.5156 9.96875 9.609375 4.390625 9.53125 6.828125 4.390625 9.609375 2127.5156 9.96875 9.53125 2127.5156 6.3046875 9.53125 9.46875 6.3046875 9.7109375 8.3359375 2127.5156 9.46875 2127.5156 4.390625 9.7109375 8.3359375 2127.5156 15.5625 9.53125 8.328125 8.3359375 4.390625 9.7109375 2127.5156 9.96875 9.53125 2127.5156 6.3046875 9.609375 4.390625 2127.5156 15.5625 9.609375 10.125 9.53125 6.546875 9.609375 2127.5156 9.96875 10.125 9.53125 2127.5156 4.390625 9.7109375 9.96875 6.828125 9.7109375 2127.5156 10.125 9.609375 8.3359375 9.53125 6.828125 2127.5156 10.125 10.125 2127.5156 4.390625 4.390625 9.96875 6.828125 9.7109375 2127.5156 9.96875 9.53125 2127.5156 6.3046875 9.53125 9.46875 6.3046875 9.7109375 8.3359375 2127.5156 9.53125 8.3359375 9.96875 9.53125 8.3359375 4.390625 15.5625 9.53125 10.125 5.8203125 2127.5156 11.96875 9.7109375 2127.5156 8.3359375 9.7109375 4.390625 9.7109375 2127.5156 8.3359375 9.7109375 9.96875 6.828125 9.53125 9.46875 4.390625 9.46875 4.390625 9.7109375 2127.5156 10.171875 10.171875 10.171875 2127.5156 9.609375 10.125 9.7109375"
+           id="tspan366">relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años</tspan></tspan></text>
+  </g>
+</svg>
