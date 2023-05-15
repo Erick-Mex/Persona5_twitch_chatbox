@@ -1,14 +1,57 @@
 // Mi progreso: https://rretta.online/elephant/exodia.htm
 // Para el que quiera jugar: https://rretta.online/elephant/
-const ChatBox = ({ text = "hola" }) => {
-  let font_size = 16;
-  if (text.length > 25) {
-    font_size -= text.length / 25;
+
+// Cosas que voy asumir
+// NO haras biblias (Mucho Texto yoda)
+// NO escribira un texto pegado (sin espacios)
+import style from "./ChatBox.module.css";
+
+const TextParser = (msg) => {
+  const limit = 20;
+  const words = msg.split(" ");
+
+  let line_sentence = [];
+  let line = [];
+  let len_line = 0;
+
+  if (msg.length < limit) {
+    line.push(msg);
+  } else {
+    words.forEach((word) => {
+      if (len_line + word.length > limit) {
+        len_line = 0;
+        line.push(line_sentence.join(" "));
+        line_sentence = [];
+        line_sentence.push(word);
+      } else {
+        len_line += word.length;
+        line_sentence.push(word);
+      }
+    });
+    line.push(line_sentence.join(" "));
   }
+  return line;
+};
+
+const ChatBox = ({ msg }) => {
+  //x = 500
+  //y = 170
+  const origin_X = 165;
+  const origin_Y = 25;
+  const width_chatbox = 500;
+  const height_chatbox = 150;
+  const sentences = TextParser(msg);
 
   return (
-    <div clasName="wrapper">
-      <svg className="container" xmlns="http://www.w3.org/2000/svg" width={500} height={170}>
+    <div className={style.container}>
+      {/* path */}
+      {/* M[SI] [pos_vertical] h[width] v[height] H[II]z*/}
+      <svg
+        className="container"
+        xmlns="http://www.w3.org/2000/svg"
+        width={width_chatbox}
+        height={height_chatbox}
+      >
         <defs>
           <path id="b" d="M168.986 42.726h228.995v80.652H168.986z" />
         </defs>
@@ -20,7 +63,8 @@ const ChatBox = ({ text = "hola" }) => {
           }}
         />
         <path
-          d="M164.508 8.925h307.496v165.511H164.508z"
+          d="M164.508 8.925h307.496v145.511H164.508z"
+          // d={`M164.508 ${38}h${width_chatbox-origin_X-15}v${100}H164.508z`}
           style={{
             fill: "#000",
             strokeWidth: 0.418081,
@@ -43,27 +87,22 @@ const ChatBox = ({ text = "hola" }) => {
         />
         <text
           xmlSpace="preserve"
+          x={origin_X}
+          y={origin_Y}
           style={{
-            fontSize: font_size,
             whiteSpace: "pre",
             shapeInside: "url(#b)",
             fill: "#fff",
-            wordWrap: "break-word"
           }}
         >
-          <tspan x={168.986} y={57.324}>
-            {text}
-          </tspan>
+          {sentences.map((line, index) => {
+            return (
+              <tspan key={index} x={origin_X} dy="1em">
+                {line}
+              </tspan>
+            );
+          })}
         </text>
-      </svg>
-      <svg>
-        <path
-          d="M164.508 8.925h307.496v165.511H164.508z"
-          style={{
-            fill: "#000"
-          }}
-          transform="skewX(-21.731) scale(1 .92893)"
-        />
       </svg>
     </div>
   );
